@@ -1,0 +1,130 @@
+
+.ai{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.ai-text{
+  color: var(--orange-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+.dots{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.dot{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #9A8983;
+
+}
+.dot .active{
+  background-color: var(--orange-color);
+}
+.main-large{
+  background-color: var(--orange-color);
+  
+  height: 550px;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: -20px;
+  z-index: 999;
+
+
+  
+}
+.black{
+  border-radius: 20px;
+  background-color: black;
+  color: antiquewhite;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  
+  display: flex;
+  justify-content: space-between;
+  height: 260px;
+
+}
+.orange{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  color: white;
+  margin-top: 30px;
+    
+
+}
+
+.left-side-orange{
+  width: 40%;
+  margin-top: 15px;
+
+}
+.right-side-orange{
+  width: 40%;
+  margin-top: 15px;
+
+
+}
+
+.left-buttons-orange{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  /* flex-start all items sticks to the left  */
+
+  
+}
+.lc{
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+}
+.avail{
+  
+    border-radius: 20px;
+    padding: 8px 18px;
+    border: none;
+
+}
+.left-side-black{
+  width: 40%;
+  margin: 20px;
+  margin-top: -30px;
+}
+.right-side-black{
+  width: 40%;
+}
+.left-h-orange{
+  font-weight: 200;
+}
+.bold{
+  font-weight: bold;
+}
+.left-h-black{
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.left-p-black {
+  margin-top: 0px;
+}
+
+.left-button-black{
+  background-color: var(--orange-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 25px;
+
+
+}
+.right-p-black{
+  margin-top: 120px;
+}

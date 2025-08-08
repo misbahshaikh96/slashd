@@ -1,0 +1,48 @@
+.black-full{
+  background-color: black ;
+  height: 660px;
+  margin-bottom: 20px;
+}
+
+.appointment {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.h2-p-white{
+  margin-top: 150px;
+}
+.mobile-img{
+  margin-top: 150px;
+}
+.appointment-heading{
+  
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 0px;
+
+
+
+}
+.orange-text{
+  font-weight: 600;
+  font-size: 50px;
+  color: var(--orange-color);
+
+}
+.appointment-para{
+  font-weight: 400;
+  size: 23px;
+  color: var(--light-gray);
+
+}
+.iphone{
+  width: 400px;
+}
+.blackwheel{
+  width: 400px;
+  /* margin-left: 20px; */
+}
+.mobile-img{
+  margin-left: 40px;
+}

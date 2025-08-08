@@ -3,24 +3,23 @@ import './Navbar.css'
 
 export default function Navbar() {
   return (
-    <nav>
-            <div className="logo">
-                <img src="" alt="" />
-                <div className="logo-text">SLASHD</div>
-            </div>
+    <nav className="nav container">
+        <div className="logo">
+          <img src={'/logo.webp'} alt="" />
+        </div>
 
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-            </ul>
-            <div className="auth-buttons">
-                <a href="" className="sign-in">Singn In</a>
-                <a href="" className="get-started">Get Started</a>
-            </div>
-            
+        <ul>
+          
+          <li><a href="">About</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Pricing</a></li>
+        </ul>
 
-    </nav>
+        <div className="auth-buttons">
+          <button className="si">Sign In</button>
+          <button className="gs">Get Started</button>
+        </div>
+      </nav>
   )
 }
 

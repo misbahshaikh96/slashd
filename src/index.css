@@ -1,19 +1,23 @@
-:root {
+:root{
   --orange-color: #FF4E08;
-}
-*,
-*::after,
-*::before{
-  box-sizing: border-box;
+  --gray-color: #9A8983;
+  --linear-gardient: #7000FF;
+  --light-gray: #D2C6C2;
 }
 body{
-  /* overflow: hidden; */
-  height: 100vh;
+  background: #FFF8EB;
   margin: 0;
-  font-family: 'inter', sans-serif;
-}
+  font-family: 'sora', sans-serif;
 
-.wrapper{
+}
+*,
+::after,
+::before{
+  box-sizing: border-box;
+
+}
+.container{
   max-width: 1024px;
   margin: 0 auto;
 }
+
