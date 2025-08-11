@@ -41,8 +41,27 @@
 }
 
 .h-h-p {
-  background-color: rgb(226, 20, 20);
-  height: 400px;
+  background-color: white;
+  height: 350px;
   padding: 20px 20px;
   border-radius: 20px;
+  position: relative;
+}
+.small-square {
+  width: 20px;
+  height: 20px;
+  background-color: var(--orange-color);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 3px;
+}
+
+.vertically {
+  display: inline-block;
+  transform: rotate(90deg);
+  transform-origin: center;
+  width: 50px;
+  white-space: nowrap;
+  letter-spacing: 0.9px;
 }
