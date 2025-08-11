@@ -91,6 +91,8 @@ export default function MultipleItems() {
 
       {/* categorized-three */}
       <div className="categorized-three container">
+
+
         <div className="card-below-slashd-ai">
           <div className="h-h-p">
             <h2>01.</h2>
@@ -99,27 +101,41 @@ export default function MultipleItems() {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae,
               atque. Perspiciatis tempora totam quasi magni veniam.
             </p>
-          </div>
+            
+          <div className="small-square"></div>
         </div>
+          </div>
+
 
         <div className="card-below-slashd-ai">
           <div className="h-h-p">
             <h2>02.</h2>
+
+            <div className="vertical">
             <h3>Real-state</h3>
+            </div>
+
           </div>
         </div>
 
         <div className="card-below-slashd-ai">
           <div className="h-h-p">
             <h2>03.</h2>
+            <div className="vertical">
             <h3>Beauty</h3>
+            </div>
+
           </div>
         </div>
 
         <div className="card-below-slashd-ai">
           <div className="h-h-p">
             <h2>04.</h2>
+            <div className="vertical">
             <h3>Your Business</h3>
+            </div>
+
+            
           </div>
         </div>
       </div>
