@@ -1,0 +1,28 @@
+.footer-black {
+  background: black;
+  color: white;
+  padding: 30px;
+}
+
+.footer-h-p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #555;
+}
+
+.footer-h-p h2 {
+  margin-bottom: 0px;
+}
+.footer-h-p p {
+  margin-top: 10px;
+}
+.faq {
+  border-bottom: 1px solid #555;
+  position: relative;
+}
+span img {
+  width: 60px;
+  position: absolute;
+  right: 0px;
+}

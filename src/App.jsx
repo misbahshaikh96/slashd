@@ -5,6 +5,8 @@ import Ai from "./Components/Ai/Ai";
 import Iphone from "./Components/Iphone/Iphone";
 
 import MultipleItems from "./Components/MultipleItems/MultipleItems";
+import Brand from "./Components/Brand/Brand";
+
 import Footer from "./Components/Footer/Footer";
 
 export default function App() {
@@ -16,6 +18,7 @@ export default function App() {
         <Ai />
         <Iphone />
         <MultipleItems />
+        <Brand />
         <Footer />
       </>
     </div>
